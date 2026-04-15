@@ -1,29 +1,32 @@
-### Hi, I'm Chaima
+## Chaima Yedes
 
-Principal Data & AI Architect based in Abu Dhabi. I design and build data platforms, ML systems, and analytics infrastructure at scale.
+**Principal Data & AI Architect** — Abu Dhabi, UAE
 
-#### What I work with
+I design and build data platforms, ML systems, and AI-powered applications at scale. Currently building a sovereign data exchange platform on Databricks.
 
-- **Data Platforms** — Databricks, Delta Lake, Unity Catalog, Lakehouse architecture
-- **MLOps** — MLflow, model serving, drift detection, automated retraining pipelines
-- **Cloud** — Azure (primary), GCP, Terraform for infrastructure-as-code
-- **AI/ML** — RAG systems, embeddings (CLIP), LLM integration (Gemini, GPT), vector search
-- **Data Engineering** — Spark, Delta Live Tables, medallion architecture, data quality frameworks
+### What I build
 
-#### Projects
+**Data Platforms** — Lakehouse architecture, Delta Lake, Unity Catalog, medallion pipelines for structured + unstructured data (images, video)
 
-| Project | What it does |
-|---------|-------------|
-| [mlops-platform](https://github.com/chaimaYS/mlops-platform) | End-to-end MLOps: MLflow tracking, model registry, drift detection, automated retraining, FastAPI serving |
-| [medallion-architecture-databricks](https://github.com/chaimaYS/medallion-architecture-databricks) | Medallion pipeline for structured data + images/videos on Databricks with CLIP embeddings |
-| [multimodal-rag-gcp](https://github.com/chaimaYS/multimodal-rag-gcp) | Visual search app: CLIP + BigQuery vector search + Gemini RAG with Streamlit UI |
-| [terraform-data-platform](https://github.com/chaimaYS/terraform-data-platform) | Reusable Terraform modules for Azure data infrastructure (networking, storage, Databricks, monitoring) |
+**MLOps** — End-to-end ML lifecycle: experiment tracking, model registry, drift detection, automated retraining, model serving with A/B testing
 
-#### Currently
+**AI Applications** — RAG systems, multimodal search (CLIP + vector search), LLM integration, Genie room automation
 
-Building a sovereign data exchange platform — marketplace with data quality scoring, governance, and AI-powered discovery using Databricks Genie.
+**Infrastructure** — Terraform modules for Azure data platforms, Kubernetes deployments, CI/CD for data pipelines
 
-#### Connect
+### Featured work
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chaima-yedes/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:yedeschaima5@gmail.com)
+| | |
+|---|---|
+| [**mlops-platform**](https://github.com/chaimaYS/mlops-platform) | MLflow + Optuna + FastAPI — training, registry, drift detection, automated retraining |
+| [**medallion-architecture-databricks**](https://github.com/chaimaYS/medallion-architecture-databricks) | Bronze → Silver → Gold for tabular data + images/videos with CLIP embeddings |
+| [**multimodal-rag-gcp**](https://github.com/chaimaYS/multimodal-rag-gcp) | Visual search app — query images with natural language, powered by CLIP + BigQuery + Gemini |
+| [**terraform-data-platform**](https://github.com/chaimaYS/terraform-data-platform) | Reusable Terraform modules — VNet, ADLS, Databricks, Key Vault, monitoring |
+
+### Stack
+
+`Databricks` `Delta Lake` `Unity Catalog` `MLflow` `Spark` `Python` `Terraform` `Azure` `GCP` `FastAPI` `Docker` `Kubernetes` `dbt` `Dagster`
+
+---
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/chaima-yedes/)
